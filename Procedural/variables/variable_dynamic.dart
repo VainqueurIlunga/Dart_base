@@ -5,4 +5,8 @@ void main() {
   print(mixVariable);
   mixVariable = 185;
   print(mixVariable);
+  mixVariable = true;
+  print(mixVariable);
+  mixVariable = 12.4;
+  print(mixVariable);
 }
