@@ -10,7 +10,17 @@ void testerAge(String nom,{age = 1})
     print("$nom tu es majeur, tu as $age ans");
   }
 }
-
+void testerGenre(String sexe, String nom){
+  if (sexe == "homme")
+  {
+    testerAge(nom);
+  }
+  else
+  {
+    testerAge(nom);
+  }
+}
 void main() {
-  testerAge("vainqueur");
+  //testerAge("vainqueur");
+  testerGenre("femme", "vainqueur");
 }
